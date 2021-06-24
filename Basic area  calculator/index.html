@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Area Calculator</title>
+    <style>
+        {
+        font-family:'Nunito';
+        height:100%;
+        
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -moz-background-size:cover;
+        background:#70bg32;
+        background-repeat:no-repeat;
+        background:linear-gradient(to left top,white,darkgrav)fixed;
+    }
+    </style>
+</head>
+<body>
+    
+    <h1><center>Calculator For basic area Calculation</center></h1>
+    <form>
+        <input id="length" type ="number" placeholder = "length" min ="0" step = "any">
+        <input id="width" type ="number" placeholder = "width" min = "0" step ="any" >
+        <input id="area" type ="number" readonly >
+        <input id="Calculate" type ="button" value= "calculate" onclick="solveArea()">
+        <input type = "reset" value = "clear">
+    </form>
+    <script src ="main.js"></script>
+</body>
+</html>
