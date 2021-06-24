@@ -1,3 +1,6 @@
 # js_practice
 Js Training stuffs is included here 
-This is primarily a static mini - book store , you migh be seeing this as an e-commerce site shortly as I will be implementing my learnings here using node.js and Mongo DB
+
+In the Folder - Book Webpage there is an static web page which I will be gradully coverting in to a dynamic one to reflect my learnings of node.js and mongodb
+In the folder JS calculator i developed a in browser calculator having a calculator interface using Javascript, HTML and CSS.
+The random two files index.html and main.js are the two Book Insertion application of a webpage created using HTML , CSS and Javascript 
