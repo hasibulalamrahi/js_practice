@@ -1,4 +1,6 @@
-//Uses of getter and setters
+
+//This Code covers the topic no 9.1 from javascript.info
+
 class User {
 
     constructor(name) {
@@ -24,4 +26,3 @@ class User {
   alert(user.name); // John
   
   user = new User(""); // Name is too short.
-  
